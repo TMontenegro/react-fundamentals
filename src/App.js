@@ -10,6 +10,7 @@ import Repetition from './components/BasicComponents/Repetition/index';
 import Conditional from './components/BasicComponents/Conditional/index';
 import FatherDirect from './components/Comunication/Direct/Father/index';
 import FatherIndirect from './components/Comunication/Indirect/Father/index';
+import InputComponent from './components/BasicComponents/Input/index';
 
 export default () => (
   <div className='App'>
@@ -39,6 +40,9 @@ export default () => (
     </Card>
     <Card title='#07 - Father/Son indirect component' color='#982395'>
       <FatherIndirect></FatherIndirect>
+    </Card>
+    <Card title='#08 - Input component' color='#ECDFBD'>
+      <InputComponent></InputComponent>
     </Card>
   </div>
 );
