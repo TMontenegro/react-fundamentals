@@ -3,11 +3,11 @@ import React from 'react';
 import './App.css';
 
 import Card from './components/Card/index';
-import First from './components/First/index';
-import Parameter from './components/Parameter/index';
-import Children from './components/Children/index';
-import Repetition from './components/Repetition/index';
-import Conditional from './components/Conditional/index';
+import First from './components/BasicComponents/First/index';
+import Parameter from './components/BasicComponents/Parameter/index';
+import Children from './components/BasicComponents/Children/index';
+import Repetition from './components/BasicComponents/Repetition/index';
+import Conditional from './components/BasicComponents/Conditional/index';
 
 export default () => (
   <div className='App'>
