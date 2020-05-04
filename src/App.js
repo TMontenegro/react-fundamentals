@@ -11,6 +11,7 @@ import Conditional from './components/BasicComponents/Conditional/index';
 import FatherDirect from './components/Comunication/Direct/Father/index';
 import FatherIndirect from './components/Comunication/Indirect/Father/index';
 import InputComponent from './components/BasicComponents/Input/index';
+import Counter from './components/Counter/index';
 
 export default () => (
   <div className='App'>
@@ -43,6 +44,9 @@ export default () => (
     </Card>
     <Card title='#08 - Input component' color='#ECDFBD'>
       <InputComponent></InputComponent>
+    </Card>
+    <Card title='#09 - Counter component' color='#CD1719'>
+      <Counter amount={10} value={0}></Counter>
     </Card>
   </div>
 );
